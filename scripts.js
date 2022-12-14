@@ -1,3 +1,5 @@
+jQuery(document).ready(function($)
+{
 var obj_bocchi_bg = document.querySelector(".bocchi_bg");
 var obj_nijika_bg = document.querySelector(".nijika_bg");
 var obj_ryo_bg = document.querySelector(".ryo_bg");
@@ -343,4 +345,6 @@ setTimeout(bocchi_BGappearance_anime,100);
 $(window).resize(function()
 {
 c_w = view_width/1920;
+})
+//////////////////////////////////////////////////////////////////////////
 })
