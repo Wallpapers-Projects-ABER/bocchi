@@ -1,0 +1,103 @@
+
+
+@font-face
+{ 
+font-family : customfont;
+src: url(etc/BM_hanna.ttf);
+}
+
+body
+{
+font-family: customfont;
+}
+
+.github_link
+{
+position : fixed;
+color : #635d67;
+font-weight : bold;
+white-space: nowrap;
+font-size : var(--text_size);
+top : 95%;
+left : var(--skin_change_pos);
+z-index : 9999;
+padding : 3px;
+transition : background-color 0.25s, opacity 0.5s;
+padding-left : 15px;
+padding-right : 15px;
+}
+
+
+.background
+{
+background : #00183b;
+overflow-x: hidden;
+overflow-y: hidden;
+height : var(--page_height);
+z-index : 0;
+}
+
+.air_res
+{
+position : fixed;
+color : #635d67;
+font-weight : bold;
+white-space: nowrap;
+font-size : var(--text_size);
+transition : color 2s;
+top : 96%;
+z-index : 9999;
+padding: 1.5px;
+}
+
+.air_res_bar
+{
+-webkit-appearance : none;
+position : fixed;
+background : #ffffff;
+font-weight : bold;
+white-space: nowrap;
+font-size : var(--text_size);
+transition : color 2s;
+top : 98%;
+z-index : 9999;
+padding : 2px;
+height : 3px;
+width : 150px;
+border-radius : 12px;
+}
+
+.air_res_bar:hover 
+{
+opacity: 1;
+}
+
+.air_res_bar::-webkit-slider-thumb 
+{
+-webkit-appearance: none;
+appearance: none;
+width: 12px;
+height: 12px;
+background: #00aaa9;
+cursor: pointer;
+border-radius : 12px;
+}
+
+.air_res_bar::-moz-range-thumb 
+{
+width: 12px;
+height: 12px;
+background: #00aaa9;
+cursor: pointer;
+border-radius : 12px;
+}
+
+.air_res_bar::-moz-range-thumb
+{
+-webkit-appearance: none;
+appearance: none;
+background : #00aaa9;
+width : 12px;
+height : 12px;
+cursor: pointer;
+}
