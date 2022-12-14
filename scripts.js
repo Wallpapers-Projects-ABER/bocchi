@@ -64,7 +64,7 @@ function step_event() //10 fps
 {
     for(var k = 0; k <= 3; k++)
     {
-        if (imgs_obj[k] != -4)
+        if (imgs_obj[k] != undefined)
         {
             if (imgs_max_angle[k] > 0)
             {
