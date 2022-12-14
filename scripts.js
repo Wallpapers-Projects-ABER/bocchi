@@ -15,42 +15,6 @@ document.documentElement.style.setProperty("--skin_change_pos",view_width-resizi
 
 
 
-var view_width = window.innerWidth;
-c_w = view_width/1920;
-window.onload = function()
-{
-c_w = view_width/1920;
-
-
-    for(var i = 0; i <= 3; i++)
-    {
-    imgs_obj[i] = document.createElement("img");
-    imgs_obj[i].src = "imgs/"+i+".png";
-    imgs_obj[i].style.cursor = "pointer";
-    imgs_obj[i].style.width = "240px";
-    imgs_obj[i].style.position = "absolute";
-    imgs_obj[i].style.display = "block";
-    imgs_obj[i].style.opacity = "1";
-    imgs_obj[i].style.zIndex = i+10;
-    imgs_obj[i].style.left = "-999px";
-    imgs_obj[i].draggable = false;
-    imgs_obj[i].style.transition = "top 0.9s, transform 0.06s"
-    imgs_obj[i].style.transformOrigin = "top";
-    imgs_obj[i].style.left = (i+1)*17.7+"%";
-    imgs_obj[i].style.top = "-300px";
-    imgs_obj[i].style.transitionTimingFunction = "ease-in-out"; 
-    imgs_obj[i].style.animation = "compare 2s infinite alternate";
-    imgs_clicked[i] = 1;
-    imgs_angle[i] = 0;
-    $("input").after(imgs_obj[i]);
-    }
-setTimeout(bocchi_BGappearance_anime,100);
-}
-
-$(window).resize(function()
-{
-c_w = view_width/1920;
-})
 
 //return -1 or 1
 function irandom_return()
@@ -339,3 +303,44 @@ function kita_bounce_anime3()
 imgs_obj[3].style.top = "36%";
 setTimeout(kita_bounce_anime2,900);
 }
+
+
+
+
+
+
+//onload
+window.onload = function()
+{
+c_w = view_width/1920;
+
+
+    for(var i = 0; i <= 3; i++)
+    {
+    imgs_obj[i] = document.createElement("img");
+    imgs_obj[i].src = "imgs/"+i+".png";
+    imgs_obj[i].style.cursor = "pointer";
+    imgs_obj[i].style.width = "240px";
+    imgs_obj[i].style.position = "absolute";
+    imgs_obj[i].style.display = "block";
+    imgs_obj[i].style.opacity = "1";
+    imgs_obj[i].style.zIndex = i+10;
+    imgs_obj[i].style.left = "-999px";
+    imgs_obj[i].draggable = false;
+    imgs_obj[i].style.transition = "top 0.9s, transform 0.06s";
+    imgs_obj[i].style.transformOrigin = "top";
+    imgs_obj[i].style.left = (i+1)*17.7+"%";
+    imgs_obj[i].style.top = "-300px";
+    imgs_obj[i].style.transitionTimingFunction = "ease-in-out"; 
+    imgs_obj[i].style.animation = "compare 2s infinite alternate";
+    imgs_clicked[i] = 1;
+    imgs_angle[i] = 0;
+    $("input").after(imgs_obj[i]);
+    }
+setTimeout(bocchi_BGappearance_anime,100);
+}
+
+$(window).resize(function()
+{
+c_w = view_width/1920;
+})
