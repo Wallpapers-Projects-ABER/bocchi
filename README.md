@@ -1,6 +1,6 @@
 <div align = "center">
-<h1> Bocchi! (Bocchi the rock!) </h1>
-
+<h1> Bocchi! [ぼっち・ざ・ろっく! - Bocchi the Rock!] </h1>
+<img src = "imgs/bocchi!.gif" width = "230px">
 
 <img src = "imgs/0.png" width = "200px"> <img src = "imgs/1.png" width = "200px"> <img src = "imgs/2.png" width = "200px"> <img src = "imgs/3.png" width = "200px">
 
