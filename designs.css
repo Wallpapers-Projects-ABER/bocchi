@@ -44,7 +44,7 @@ color : #635d67;
 font-weight : bold;
 white-space: nowrap;
 font-size : var(--text_size);
-transition : color 2s;
+transition : color 2s, opacity 0.5s;
 top : 96%;
 z-index : 9999;
 padding: 1.5px;
@@ -58,7 +58,7 @@ background : #ffffff;
 font-weight : bold;
 white-space: nowrap;
 font-size : var(--text_size);
-transition : color 2s;
+transition : color 2s, opacity 0.5s;
 top : 98%;
 z-index : 9999;
 padding : 2px;
@@ -69,7 +69,7 @@ border-radius : 12px;
 
 .air_res_bar:hover 
 {
-opacity: 1;
+transition : opacity 0.5s;
 }
 
 .air_res_bar::-webkit-slider-thumb 
@@ -81,6 +81,7 @@ height: 12px;
 background: #00aaa9;
 cursor: pointer;
 border-radius : 12px;
+transition : opacity 0.5s;
 }
 
 .air_res_bar::-moz-range-thumb 
@@ -90,6 +91,7 @@ height: 12px;
 background: #00aaa9;
 cursor: pointer;
 border-radius : 12px;
+transition : opacity 0.5s;
 }
 
 .air_res_bar::-moz-range-thumb
@@ -100,4 +102,5 @@ background : #00aaa9;
 width : 12px;
 height : 12px;
 cursor: pointer;
+transition : opacity 0.5s;
 }

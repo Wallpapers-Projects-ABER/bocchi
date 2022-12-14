@@ -6,6 +6,8 @@ var obj_ryo_bg = document.querySelector(".ryo_bg");
 var obj_kita_bg = document.querySelector(".kita_bg");
 
 var ins_github_link = document.querySelector(".github_link");
+var ins_air_res = document.querySelector(".air_res");
+var ins_air_res_bar = document.querySelector(".air_res_bar");
 
 
 //set values for css
@@ -252,6 +254,8 @@ function kita_bounce_anime()
 imgs_obj[3].style.top = "33%";
 setTimeout(kita_bounce_anime2,900);
 ins_github_link.style.opacity = 1;
+ins_air_res.style.opacity = 1;
+ins_air_res_bar.style.opacity = 1;
 }
 
 
