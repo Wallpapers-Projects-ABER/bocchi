@@ -22,7 +22,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2902111469
 -------------
 ### - Preview
 
-<img src = "imgs/bocchi_godzilla.gif" width = "400px"> 
+<img src = "imgs/bocchi_godzilla_.gif" width = "500px"> 
 
 https://aber1047.github.io/bocchi/
 
