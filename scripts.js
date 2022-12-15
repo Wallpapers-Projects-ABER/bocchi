@@ -5,11 +5,11 @@ window.onload = function()
 {
 c_w = view_width/1920;
 
-
+var img_name = ["bocchi","nijika","ryo","kita"];
     for(var i = 0; i <= 3; i++)
     {
     imgs_obj[i] = document.createElement("img");
-    imgs_obj[i].src = "imgs/"+i+".png";
+    imgs_obj[i].src = "imgs/"+img_name[i]+".png";
     imgs_obj[i].style.cursor = "pointer";
     imgs_obj[i].style.width = "240px";
     imgs_obj[i].style.position = "absolute";
@@ -30,6 +30,7 @@ c_w = view_width/1920;
     }
 setTimeout(bocchi_BGappearance_anime,100);
 }
+
 
 
 
@@ -176,9 +177,19 @@ addEventListener("click",function()
 function sticker_interaction(evt)
 {
 var ii = evt.currentTarget.param1;
+var target_src = imgs_obj[ii].src;
 var random_angle = irandom_range(27,30)*irandom_return();
 imgs_max_angle[ii] = random_angle;
 //console.log("imgs_max_angle"+imgs_max_angle);
+
+    //check image file name and play sfx
+    if (target_src.includes("kita"))
+    {
+    var audio = new Audio("sfx/kitaura.mp3");
+    audio.pitchShift = false;
+    audio.volume = 0.2;
+    audio.play();
+    }
 }
 
 
