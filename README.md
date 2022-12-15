@@ -1,6 +1,6 @@
 <div align = "center">
 
-<img src = "imgs/0.png" width = "200px"> <img src = "imgs/1.png" width = "200px"> <img src = "imgs/2.png" width = "200px"> <img src = "imgs/3.png" width = "200px">
+<img src = "imgs/bocchi.png" width = "200px"> <img src = "imgs/nijika.png" width = "200px"> <img src = "imgs/ryo.png" width = "200px"> <img src = "imgs/kita.png" width = "200px">
 
 <h1> Bocchi! [ぼっち・ざ・ろっく! - Bocchi the Rock!] </h1>
 <img src = "imgs/bocchi!.gif" width = "230px">
