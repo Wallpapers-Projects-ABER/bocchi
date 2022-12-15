@@ -18,7 +18,7 @@ color : #635d67;
 font-weight : bold;
 white-space: nowrap;
 font-size : var(--text_size);
-top : 95%;
+top : 94%;
 left : var(--skin_change_pos);
 z-index : 9999;
 padding : 3px;
