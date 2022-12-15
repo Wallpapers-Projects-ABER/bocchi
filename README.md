@@ -17,7 +17,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2902111469
 
 #
 
-<a href = "https://github.com/ABER1047/interaction-sticker-website/blob/main/README.md">interaction-sticker-website</a> 소스 개조해다가 만든거
+<a href = "https://github.com/ABER1047/interaction-sticker-website">interaction-sticker-website</a> 소스 개조해다가 만든거
 
 -------------
 ### - Preview
