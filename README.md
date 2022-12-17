@@ -7,14 +7,18 @@
 
 
 
--------------
+
+</br></br>
 
 
+## - Preview
 
-### - Preview (click the image)
 
 <a href = "https://aber1047.github.io/bocchi/">
 <img src = "imgs/bocchi_godzilla_.gif" width = "500px"> 
+
+##### (click the image)
+
 </a>
 
 -------------
