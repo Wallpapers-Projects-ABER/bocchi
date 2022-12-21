@@ -28,13 +28,19 @@
 
 스팀(steam)에서 판매중인 Wallpapaer engine과 연동됨
 
-#### ▼ 관련해선 요기 참고
+Available in 'Wallpapar Engine' (Steam)
+
+#### ▼ 관련해선 요기 참고 (Download link)
 https://steamcommunity.com/sharedfiles/filedetails/?id=2902111469
 
 
 #
 
-<a href = "https://github.com/ABER1047/interaction-sticker-website">interaction-sticker-website</a> 소스 개조해다가 만든거
+<img src = "imgs/shake.gif" width = "230px"> 
+
+<a href = "https://github.com/ABER1047/interaction-sticker-website">interaction-sticker-website</a> 소스 개조해다 만든거 ㅇㅇ
+
+Above source was used during making for this function
 
 
 </div>
