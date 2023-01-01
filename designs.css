@@ -9,7 +9,9 @@ src: url(etc/BM_hanna.ttf);
 body
 {
 font-family: customfont;
+scroll-behavior: smooth;
 }
+
 
 .github_link
 {
