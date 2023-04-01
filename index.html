@@ -1,44 +1,41 @@
 <!doctype html>
-<html lang = "ko">
-    <head></head>
-    <meta charset = "utf-8" http-equiv = "Content-Security-Policy" content = "upgrade-insecure-requests">
-    <meta name = "viewport" content = "initial-scale = 1, minimum-scale = 1">
-    
-    
-    <link rel = "icon" href = "imgs/bocchi.png">
-    <title>Bocchi!</title>
-    
-    <link rel = "stylesheet" href = "designs.css">
-    
-    
-    
-    <body class = "background">
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+        <meta name="viewport" content="initial-scale=1, minimum-scale=1">
+        
+        
+        <link rel="icon" href="imgs/bocchi.png">
+        <title>Bocchi!</title>
+        
+        <link rel="stylesheet" href="designs.css">
+    </head>
 
-    <!-- air resistence -->
-    <div id = "air_res" class = "air_res" style = "opacity : 0;">
-    Air resistence
-    </div>
-    
-    <a id = "github_link" class = "github_link" target = "_blank" style = "opacity : 0; cursor : pointer; z-index : 990; text-decoration : none;" href = "https://github.com/ABER1047/bocchi">
-    Github
-    </a>
-    
-    <input id = "air_res_bar" class = "air_res_bar" type="range" min="0" max="400" value="296" style = "opacity : 0;">
-    
-    <div id = "bocchi_bg" class = "bocchi_bg" style = "transition-timing-function:ease-out; background-color : #e0c1c6; width : 260px; height : 2000px; position : absolute; left : 17%; top : -2100px; transition : top 1.4s;"></div>
-    <div id = "nijika_bg" class = "nijika_bg" style = "transition-timing-function:ease-out; background-color : #e0be55; width : 260px; height : 2000px; position : absolute; left : 34.5%; top : -2100px; transition : top 1.4s;"></div>
-    <div id = "ryo_bg" class = "ryo_bg" style = "transition-timing-function:ease-out; background-color : #7eabcb; width : 260px; height : 2000px; position : absolute; left : 52.5%; top : -2100px; transition : top 1.4s;"></div>
-    <div id = "kita_bg" class = "kita_bg" style = "transition-timing-function:ease-out; background-color : #db8374; width : 260px; height : 2000px; position : absolute; left : 70%; top : -2100px; transition : top 1.4s;"></div>
-    
-    <!-- <div id = "bocchi_stick" class = "bocchi_stick" style = "background-color : #ffffff; width : 5px; height : 2000px; position : absolute; left : 23.9%; top : -1540px; opacity : 1;"></div>
-    <div id = "kita_stick" class = "kita_stick" style = "background-color : #ffffff; width : 5px; height : 2000px; position : absolute; left : 34.5%; opacity : 0.8;"></div>
-    <div id = "nijika_stick" class = "nijika_stick" style = "background-color : #ffffff; width : 5px; height : 2000px; position : absolute; left : 52.5%; opacity : 0.8;"></div>
-    <div id = "ryo_stick" class = "ryo_stick" style = "background-color : #ffffff; width : 5px; height : 2000px; position : absolute; left : 70%; opacity : 0.8;"></div> -->
+    <body class="background">
+        <!-- air resistence -->
+        <div id="air_res" class="air_res" style="opacity: 0;">
+            Air resistence
+        </div>
 
+        <a id="github_link" class="github_link" target="_blank" style="opacity: 0; cursor: pointer; z-index: 990; text-decoration: none;" href="https://github.com/ABER1047/bocchi">
+            Github
+        </a>
 
-    <script class = "jsbin" src = "https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script class = "jsbin" src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
-    <script src = "https://cdn.jsdelivr.net/gh/ABER1047/Forme@main/scripts.js"></script>
-    <script src = "scripts.js"></script>
+        <input id="air_res_bar" class="air_res_bar" type="range" min="0" max="400" value="296" style="opacity: 0;">
+
+        <div id="bocchi_bg" class="bocchi_bg" style="transition-timing-function:ease-out; background-color: #e0c1c6; width: 260px; height: 2000px; position: absolute; left: 17%; top: -2100px; transition: top 1.4s;"></div>
+        <div id="nijika_bg" class="nijika_bg" style="transition-timing-function:ease-out; background-color: #e0be55; width: 260px; height: 2000px; position: absolute; left: 34.5%; top: -2100px; transition: top 1.4s;"></div>
+        <div id="ryo_bg" class="ryo_bg" style="transition-timing-function:ease-out; background-color: #7eabcb; width: 260px; height: 2000px; position: absolute; left: 52.5%; top: -2100px; transition: top 1.4s;"></div>
+        <div id="kita_bg" class="kita_bg" style="transition-timing-function:ease-out; background-color: #db8374; width: 260px; height: 2000px; position: absolute; left: 70%; top: -2100px; transition: top 1.4s;"></div>
+
+        <!-- <div id="bocchi_stick" class="bocchi_stick" style="background-color: #ffffff; width: 5px; height: 2000px; position: absolute; left: 23.9%; top: -1540px; opacity: 1;"></div>
+        <div id="kita_stick" class="kita_stick" style="background-color: #ffffff; width: 5px; height: 2000px; position: absolute; left: 34.5%; opacity: 0.8;"></div>
+        <div id="nijika_stick" class="nijika_stick" style="background-color: #ffffff; width: 5px; height: 2000px; position: absolute; left: 52.5%; opacity: 0.8;"></div>
+        <div id="ryo_stick" class="ryo_stick" style="background-color: #ffffff; width: 5px; height: 2000px; position: absolute; left: 70%; opacity: 0.8;"></div> -->
+
+        <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/ABER1047/Forme@main/scripts.js"></script>
+        <script src="scripts.js"></script>
     </body>
 </html>
