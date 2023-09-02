@@ -15,7 +15,7 @@
 ## - Preview
 
 
-<a href = "https://aber1047.github.io/bocchi/">
+<a href = "https://Wallpapers-Projects-ABER/bocchi/">
 <img src = "imgs/bocchi_godzilla_.gif" width = "500px"> 
 
 ##### (click the image)
